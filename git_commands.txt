@@ -1,0 +1,31 @@
+## Clone the remote repository
+git clone https://github.com/ua-csc544-fall-2017/assignment-1-ManojGopale.git
+
+## Change dir to the repo clone
+cd assignment-1-ManojGopale/
+
+## Copy or add files that you want to puch to repo
+cp -rf  ~/Documents/answers.txt .
+
+## Check status of the files added
+git status
+
+## Add files to the repo
+git add answers.txt
+git status
+
+## Commmit the files to local repo -m "Stands for messasge"
+git commit -a -m "Answers to assignment 1, CSC 544"
+
+## Check the commit logs for added files
+git log
+
+## Push the commited files to the online repo 
+git push origin master
+
+## This fetches the changes from the online repo to the local repo but does not 
+## apply changes
+git fetch origin 
+
+## This pulls and applies changes to the local repo 
+git pull origin
