@@ -29,3 +29,6 @@ git fetch origin
 
 ## This pulls and applies changes to the local repo 
 git pull origin
+
+## Good link to check for branching and merging
+https://gist.github.com/blackfalcon/8428401
