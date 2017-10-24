@@ -32,3 +32,6 @@ git pull origin
 
 ## Good link to check for branching and merging
 https://gist.github.com/blackfalcon/8428401
+
+## Also this for merging and concepts
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
